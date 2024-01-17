@@ -92,5 +92,11 @@ TRINKETS = ['A mummifed golbin hand', 'A piece of crystal that faintly glows in 
 
             ]
 
-item = random.choice(TRINKETS)
-print(item)
+#item = random.choice(TRINKETS)
+#print(item)
+
+numb = int(input("Enter the number of items to be found: "))
+
+for i in range(numb):
+      i = random.choice(TRINKETS)
+      print(i)
